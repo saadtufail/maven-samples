@@ -3,6 +3,6 @@ node {
     git 'https://github.com/saadtufail/maven-samples'
   }
   stage('Compile-Package') {
-  sh 'mvn-package'
+  echo 'Jenkins build for Maven Project.'
   }
   }
